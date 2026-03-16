@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-5">
-    <h1 class="text-center mb-4">📚 Моя коллекция книг</h1>
+    <h1 class="text-center mb-4">Моя коллекция книг</h1>
 
     <!-- Форма добавления -->
     <div class="row">
@@ -111,7 +111,7 @@
     <!-- Пустое состояние -->
     <div v-if="books.length === 0" class="text-center py-5">
       <img
-        src="https://via.placeholder.com/200x200?text=📚"
+        src="https://img.freepik.com/premium-psd/white-bookshelf-with-minimalist-decor-isolated-transparent-background_1092965-15618.jpg?semt=ais_hybrid&w=740"
         class="mb-3"
         alt="Empty"
       />
@@ -181,7 +181,7 @@ const sortedBooks = computed(() => {
 
 <style>
 body {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   min-height: 100vh;
   padding: 20px 0;
 }
