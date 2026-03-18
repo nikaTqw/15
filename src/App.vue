@@ -111,7 +111,7 @@
     <!-- Пустое состояние -->
     <div v-if="books.length === 0" class="text-center py-5">
       <img
-        src="https://img.freepik.com/premium-psd/white-bookshelf-with-minimalist-decor-isolated-transparent-background_1092965-15618.jpg?semt=ais_hybrid&w=740"
+        src="https://media.istockphoto.com/id/1320946270/ru/векторная/книги-с-обложками-в-стиле-ретро-на-настенной-книжной-полке-с-цветочным-горшком.jpg?s=612x612&w=0&k=20&c=mBGpXUYrtJLBoBu9Xf15QVtvR59kxL1nk4KHyy8bLEc="
         class="mb-3"
         alt="Empty"
       />
